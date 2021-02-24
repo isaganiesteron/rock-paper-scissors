@@ -66,7 +66,7 @@ for round in range(rounds):
         win += 1
     round_label += 1
 
-print("Results:\n\nWins: "+str(win)+"\nLoss: " +
+print("\n\n**********\n\nResults:\n\nWins: "+str(win)+"\nLoss: " +
       str(lose)+"\nDraws: "+str(draw)+"\n\n")
 
 if win > lose:
@@ -75,3 +75,4 @@ elif win == lose:
     print("IT'S A DRAW!!")
 else:
     print("You are THE LOSER!!!")
+print("\n\n**********\n\n")
